@@ -1,0 +1,51 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"admin_header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Admin</b></span>\",\"col\":12}},{\"id\":\"admin_shortcuts\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email Account\",\"col\":4}},{\"id\":\"admin_shortcuts_2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":4}},{\"id\":\"admin_shortcuts_3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":4}},{\"id\":\"admin_shortcuts_4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Permission\",\"col\":4}},{\"id\":\"admin_shortcuts_5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role Profile\",\"col\":4}}]",
+ "creation": "2026-02-14 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "setting",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Admin",
+ "links": [],
+ "modified": "2026-02-14 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Home Page",
+ "name": "Admin",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 0,
+ "shortcuts": [
+  {
+   "label": "Email Account",
+   "link_to": "Email Account",
+   "type": "DocType"
+  },
+  {
+   "label": "User",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "label": "Role",
+   "link_to": "Role",
+   "type": "DocType"
+  },
+  {
+   "label": "User Permission",
+   "link_to": "User Permission",
+   "type": "DocType"
+  },
+  {
+   "label": "Role Profile",
+   "link_to": "Role Profile",
+   "type": "DocType"
+  }
+ ],
+ "title": "Admin"
+}
