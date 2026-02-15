@@ -1,0 +1,36 @@
+<div class="home-page-container" style="padding: 60px 20px; max-width: 960px; margin: 0 auto;">
+	<div class="app-grid" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center;">
+		{% for app in apps %}
+		<a href="{{ app.route }}" class="app-icon-link" title="{{ app.title }}">
+			{% if app.logo %}
+			<img src="{{ app.logo }}" alt="{{ app.title }}" style="width: 128px; height: 128px; object-fit: contain;">
+			{% else %}
+			<svg class="icon">
+				<use href="#icon-{{ app.icon }}"></use>
+			</svg>
+			{% endif %}
+		</a>
+		{% endfor %}
+	</div>
+</div>
+
+<style>
+	.app-icon-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: transform 0.2s;
+		cursor: pointer;
+	}
+	.app-icon-link:hover {
+		transform: scale(1.1);
+	}
+	.app-icon-link .icon {
+		width: 128px;
+		height: 128px;
+		stroke: var(--text-muted);
+	}
+	.app-icon-link:hover .icon {
+		stroke: var(--primary);
+	}
+</style>

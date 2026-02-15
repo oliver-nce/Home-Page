@@ -1,0 +1,31 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"home_page_header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Home Page</b></span>\",\"col\":12}},{\"id\":\"home_page_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Home Page\",\"col\":4}}]",
+ "creation": "2026-02-14 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "home",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Home Page",
+ "links": [],
+ "modified": "2026-02-14 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Home Page",
+ "name": "Home Page",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 0,
+ "shortcuts": [
+  {
+   "label": "Home Page",
+   "link_to": "home_page",
+   "type": "Page"
+  }
+ ],
+ "title": "Home Page"
+}
